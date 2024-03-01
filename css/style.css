@@ -1,20 +1,99 @@
-div {
-    display: flex;
-    align-items: center;
+header {
     background-color: #333;
-    padding: 10px;
-
-    img {
-        margin-right: 20px;
-        
-    }
-
-    ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        color: #ddd;
-        margin-bottom: 10px;
-    }
+    display: flex;
+    flex-direction: row;
 }
 
+header img {
+    margin: 10px 10px 10px 260px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    
+}
+nav a {
+    color: darkgray;
+    justify-content: space-between;
+    padding: 30px;
+    text-decoration: none;
+}
+
+
+section {
+        display: flex;
+        margin: 30px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+section img {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+section img { 
+    display: inline-flex;
+    padding: 15px;
+    align-content: flex-start;
+}
+
+main img {
+    margin: 0 0 0 205px;
+    padding: 30px;
+}
+
+main div {
+    display: block;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+div p {
+    height: 300px; 
+    width: 390px;
+    overflow: auto; 
+}
+p {
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+main {
+    display: flex;
+    padding-bottom: 80px; /* Adjusted to accommodate the height of the footer */
+}
+
+button {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: #333;
+    display: block;
+    position: fixed;
+    padding-top: 30px;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+}
